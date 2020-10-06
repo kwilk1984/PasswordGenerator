@@ -9,12 +9,12 @@ const passwordDisplay = document.getElementById('passwordDisplay')
 const UPPERCASE_CHAR_CODES = arrayFromLowToHigh(65, 90)
 const LOWERCASE_CHAR_CODES = arrayFromLowToHigh(97, 122)
 const NUMBER_CHAR_CODES = arrayFromLowToHigh(48, 57)
-const SYMBOL_CHAR_CODES = arrayFromLowToHigh(33, 47).concat(
-  arrayFromLowToHigh(58, 64)
+const SYMBOL_CHAR_CODES = arrayFromLowToHigh(33, 33).concat(
+  arrayFromLowToHigh(35, 35)
 ).concat(
-  arrayFromLowToHigh(91, 96)
+  arrayFromLowToHigh(36, 38)
 ).concat(
-  arrayFromLowToHigh(123, 126)
+  arrayFromLowToHigh(64, 64)
 )
 
 characterAmountNumber.addEventListener('input', syncCharacterAmount)
